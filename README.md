@@ -2,7 +2,7 @@
 
 ![dance1_subject2 motion](/dance_subject.gif)
 
-## 1. LAFAN1 Retargeting Dataset
+## 1. LAFAN1 Retargeting Dataset(about AMASS motion retargeting you can check: [AMASS-Motion-Retargeting](https://github.com/XinLang2019/AMASS-Motion-Retargeting.git)
 
 To make the motion of humanoid robots more natural, we retargeted [LAFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset) motion capture data to [Unitree](https://www.unitree.com/)'s humanoid robots, supporting three models: [H1, H1_2](https://www.unitree.com/h1), and [G1](https://www.unitree.com/g1). This retargeting was achieved through numerical optimization based on [Interaction Mesh](https://ieeexplore.ieee.org/document/6651585) and IK, considering end-effector pose constraints, as well as joint position and velocity constraints, to prevent foot slippage. It is important to note that the retargeting only accounted for kinematic constraints and did not include dynamic constraints or actuator limitations. As a result, the robot cannot perfectly execute the retargeted trajectories.
 
